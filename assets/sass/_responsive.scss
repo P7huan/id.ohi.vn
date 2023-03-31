@@ -1,0 +1,274 @@
+/*------------------------------------------------
+** MEDIA ONLY SCREEN
+**------------------------------------------------*/
+@media only screen and (max-width: 1200px) {
+  .header__container .user__wrap .user .dropdown {
+    right: 0;
+    transform: translateX(0);
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .navbar {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+}
+@media only screen and (max-width: 950px) {
+  .page .main .main__content .tab-wrap {
+    padding: 0;
+  }
+  .page .main .main__content {
+    .sidebar {
+      display: none;
+    }
+    .tab-wrap {
+      max-width: 900px;
+      width: 100%;
+    }
+  }
+  .bank-block .bank-wrap .bank-item {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .page .main .main__content .box__main {
+    width: 100%;
+    padding: 0;
+  }
+  // Footer
+  footer .container__wrap {
+    margin: 0 40px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+  }
+  footer .container__wrap .box__introduction .title::after {
+    margin-top: 5px;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  footer .container__wrap .box__office-info .title::after {
+    margin-top: 5px;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  .col-3 {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .fanpage__wrap {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .bank-block .bank-wrap .bank-item {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .page .main .main__content {
+    padding-bottom: 40px;
+  }
+  .item__desc .form_group .form_control {
+    flex-wrap: wrap;
+  }
+  .label {
+    padding-bottom: 4px;
+  }
+  .method .item-wrap {
+    width: calc(50% - 10px);
+  }
+}
+@media only screen and (max-width: 650px) {
+  .bank-block .bank-wrap .bank-item {
+    width: 100%;
+    .bank-head {
+      width: 35%;
+      .bank-image {
+        margin-bottom: 20px;
+        .img-bank {
+          padding-top: 70px;
+        }
+      }
+    }
+    .bank-content {
+      padding: 0;
+      width: 65%;
+      .bank-info {
+        .bank-title {
+          width: 50%;
+        }
+        .bank-detail {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  .volatility .item-volatility .deal {
+    flex-wrap: wrap;
+    .deal-detail {
+      width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0 10px;
+  }
+  .item__desc {
+    flex-wrap: wrap;
+    padding-bottom: 0;
+    .label-right {
+      width: 100%;
+      padding-bottom: 12px;
+    }
+  }
+  .bank-block .bank-wrap .bank-item {
+    width: 100%;
+    .bank-head {
+      width: 30%;
+    }
+    .bank-content {
+      padding: 0;
+      width: 70%;
+      padding-left: 20px;
+    }
+  }
+
+  .page .main .main__content .box__main .block .perform__block .item__content ul li {
+    line-height: 18px;
+    margin-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .form .wrap__form {
+    padding: 20px;
+  }
+  .bank-block .bank-wrap .bank-item {
+    width: 100%;
+    .bank-head {
+      width: 25%;
+      // .bank-image {
+      //   margin-bottom: 20px;
+      //   .img-bank {
+      //     padding-top: 70px;
+      //   }
+      // }
+    }
+    .bank-content {
+      padding: 0;
+      width: 75%;
+      padding-left: 20px;
+      // .bank-info {
+      //   .bank-title {
+      //     width: 50%;
+      //   }
+      //   .bank-detail {
+      //     width: 50%;
+      //   }
+      // }
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  .form .wrap__form .form__block .form__item span::before {
+    display: none;
+  }
+  .form .wrap__form .form__block .form__item span::after {
+    display: none;
+  }
+
+  .check {
+    flex-wrap: wrap;
+    .btn {
+      width: 80%;
+      margin: 8px auto;
+    }
+  }
+  .bank-block .bank-wrap .bank-item {
+    width: 80%;
+    .bank-head {
+      width: 100%;
+    }
+    .bank-content {
+      padding: 0;
+      width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 450px) {
+  .bank-block .bank-wrap .bank-item {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .item__desc .label-right {
+    flex-wrap: wrap;
+    p {
+      width: 100%;
+    }
+  }
+  .item__desc .form_group .form_control .wrap__radio {
+    flex-wrap: wrap;
+    .item__radio {
+      width: 100%;
+      padding-bottom: 10px;
+    }
+  }
+  .item__desc .form_group .form_control .select {
+    flex-wrap: wrap;
+    span {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  .method .item-wrap {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .page .main .main__content .box__main .block .perform__block .item__content ul li {
+  }
+  .check {
+    .btn {
+      width: 100%;
+      margin: 8px auto;
+    }
+  }
+  .bank-block .bank-wrap .bank-item {
+    width: 100%;
+
+    .bank-head {
+      width: 60%;
+    }
+    .bank-content {
+      padding: 0;
+      width: 100%;
+    }
+  }
+  .bank-block .bank-wrap .bank-item .bank-content .bank-info .bank-title {
+    width: 100%;
+  }
+  .bank-block .bank-wrap .bank-item .bank-content .bank-info .bank-detail {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .form .wrap__form .form__head {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    strong {
+      display: none;
+    }
+  }
+
+  .form .wrap__form .form__block .form__item {
+    display: flex;
+    justify-content: center;
+  }
+}

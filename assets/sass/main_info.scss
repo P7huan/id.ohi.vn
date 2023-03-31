@@ -1,0 +1,48 @@
+.item__desc {
+  display: flex;
+  padding-bottom: 10px;
+  .desc__data {
+    display: flex;
+    justify-content: space-between;
+  }
+  .form_group {
+    width: 100%;
+    .form_control {
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+      .wrap__radio {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      .select {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        span {
+          display: block;
+          &:hover {
+            background-color: $color_input_hover;
+          }
+          width: 30%;
+          select {
+            border: none;
+            background-color: $color_page_3;
+            width: 85%;
+            width: 100%;
+            height: 40px;
+            padding-left: 10px;
+            cursor: pointer;
+            &:hover {
+              background-color: $color_input_hover;
+            }
+            &:focus-visible {
+              outline: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

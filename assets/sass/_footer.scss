@@ -1,0 +1,70 @@
+footer {
+  background-color: $color_footer;
+  border-top: 1px solid $color_boder;
+  .container__wrap {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    .box__introduction {
+      .title {
+        color: $color_page;
+        position: relative;
+        padding: 10px 0 15px 0;
+        margin-bottom: 15px;
+        &::after {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 25%;
+          height: 1px;
+          background-color: $color_page;
+        }
+      }
+
+      p {
+        margin-bottom: 15px;
+      }
+    }
+    .box__office-info {
+      .title {
+        color: $color_page;
+        position: relative;
+        padding: 10px 0 15px 0;
+        margin-bottom: 15px;
+        &::after {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 25%;
+          height: 1px;
+          background-color: $color_page;
+        }
+      }
+      p {
+        margin-bottom: 15px;
+        &.address {
+          min-height: 42px;
+        }
+      }
+      .map {
+        margin-top: 15px;
+        iframe {
+          height: 300px;
+        }
+      }
+    }
+  }
+  .footer__company {
+    margin-top: 20px;
+    border-top: 1px solid $color_boder;
+    background-color: $color_footer;
+    height: 50px;
+    .copyright {
+      height: 100%;
+      text-align: center;
+      line-height: 49px;
+    }
+  }
+}

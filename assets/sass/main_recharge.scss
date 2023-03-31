@@ -1,0 +1,35 @@
+.method {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  .item-wrap {
+    width: calc(100% / 3 - 20px);
+    padding: 10px 0;
+    .item {
+      cursor: pointer;
+      background-color: $color_page_3;
+      border-radius: 10px;
+      overflow: hidden;
+      &:hover .item-title {
+        background-color: $color_page;
+        color: $color_text_2;
+      }
+      .image-wrap {
+        padding: 30px;
+        .img {
+          padding-top: calc(100% * 3 / 4);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+      .item-title {
+        padding: 6px 0;
+        text-align: center;
+        color: $color_text;
+        background-color: $color_text_2;
+      }
+    }
+  }
+}

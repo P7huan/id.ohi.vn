@@ -1,0 +1,38 @@
+.check {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  .btn {
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: calc(100% / 3 - 20px);
+    background-color: $color_page_3;
+    &:hover {
+      box-shadow: rgb(0 0 0 / 30%) 0px 3px 2px 0px;
+    }
+  }
+}
+.volatility {
+  padding: 10px 0;
+  .item-volatility {
+    padding: 10px 0;
+    .day-deal {
+      font-size: 12px;
+    }
+    .deal {
+      display: flex;
+      justify-content: space-between;
+      .deal-amount {
+        font-weight: 600;
+      }
+      .in {
+        color: $color_page;
+      }
+      .out {
+        color: $color_deduction;
+      }
+    }
+  }
+}
